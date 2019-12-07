@@ -1,0 +1,233 @@
+/* /* /* /**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*#logo {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  height: 25%;
+  padding-right: 1075px;
+}*/
+
+#logo {
+  float: left;
+  margin: 5px 10px 10px 20px;
+    width: 25%;
+    height: 25%;
+}
+
+h1 {
+  font-family: Algerian;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;+
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+.title {
+  margin-left:50px;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/*********************************
+FOOTER
+**********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: white;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #6ab47b;
+  border-radius: 30% ;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #6ab47b;
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-image:url(../08.jpg);
+  background-color: black;
+  color: #999;
+ }
+/* green header */
+header {
+  background: black;
+  border-color: #599a68;
+  color: ;
+ }
+
+/* nav background on mobile */
+nav {
+  background-color: gold;
+  padding-left: 1000px;
+  color: black;
+
+}
+
+/* logo text */
+h1, h2 {
+  color: white;
+  margin-right: 1000px;
+  font-size: 150%;
+
+}
+
+/* links */
+a {
+  color: white;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: black;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+#banner {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+/*#banner, .banner{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    border: none;
+}*/
+  #banner, .banner{
+    background-color: white;
+    width: 70%;
+    height: 42%;
+    border: none;
+    margin: 10px 10px 0px 10px;
+    top: 0;
+  }
+  .fixed-top-right{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:1030
+  }
+#center
+{
+  text-align: center;
+}
+#back {
+  background-color: pink;
+}
+
+
+
+
+
+
+
+
+ */ */ */
